@@ -9,7 +9,7 @@
     <SidebarMenu />
   </div>
   <div
-    class="hidden side-menu lg:w-[25%] xl:w-[27%] 2xl:w-[22%] h-full lg:py-5 xl:py-14 px-2 md:px-5 lg:px-5 xl:px-10 lg:flex overflow-y-auto"
+    class="hidden side-menu lg:w-[25%] xl:w-[27%] 2xl:w-[22%] h-full lg:py-5 xl:py-14 px-5 lg:px-5 xl:px-10 lg:flex overflow-y-auto"
   >
     <SidebarMenu />
   </div>

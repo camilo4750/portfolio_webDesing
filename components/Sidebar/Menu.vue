@@ -17,17 +17,17 @@
     </div>
 
     <!-- Lista de enlaces -->
-    <ul class="mt-12 lg:space-y-5 xl:space-y-7 2xl:space-y-10">
+    <ul class="mt-12 space-y-8 lg:space-y-5 xl:space-y-7 2xl:space-y-10">
       <li
         v-for="item in menuItems"
         :key="item.title"
-        class="group lg:h-12 xl:h-14 hover:bg-customGreen200 hover:font-bold dark:text-white dark:hover:text-black transition duration-200 ease-out rounded-2xl flex items-center gap-4"
+        class="group h-16 lg:h-12 xl:h-14 text-lg hover:bg-customGreen200 hover:font-bold dark:text-white dark:hover:text-black transition duration-200 ease-out rounded-2xl flex items-center gap-4"
       >
         <a :href="item.href" class="flex items-center gap-5 w-full h-full">
           <span
-            class="flex justify-center items-center h-full lg:w-10 xl:w-12 2xl:w-14 bg-white dark:bg-customGreen600 rounded-2xl group-hover:text-white dark:group-hover:text-black dark:text-white group-hover:bg-customGreen600"
+            class="flex justify-center items-center h-full w-14 lg:w-10 xl:w-12 2xl:w-14 bg-white dark:bg-customGreen600 rounded-2xl group-hover:text-white dark:group-hover:text-black dark:text-white group-hover:bg-customGreen600"
           >
-            <Icon :name="item.icon" class="xl:text-[20px] 2xl:text-[24px] " />
+            <Icon :name="item.icon" class="text-[25px] xl:text-[20px] 2xl:text-[24px] " />
           </span>
           {{ item.title }}
         </a>

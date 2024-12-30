@@ -3,8 +3,8 @@
     class="p-1 inline-flex items-center rounded-md hover:bg-gray-300 dark:hover:bg-gray-800"
     @click="toggleTheme"
   >
-    <Icon v-if="enabled" name="material-symbols:nightlight-outline" size="20" />
-    <Icon v-else name="material-symbols-light:light-mode" size="20" class="text-yellow-600"/>
+    <Icon v-if="enabled" name="material-symbols:nightlight-outline" size="23" />
+    <Icon v-else name="material-symbols-light:light-mode" size="23" class="text-yellow-600"/>
   </button>
 </template>
 
