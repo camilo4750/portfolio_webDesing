@@ -9,7 +9,7 @@
     <SidebarMenu />
   </div>
   <div
-    class="hidden side-menu lg:w-[25%] xl:w-[20%] h-full lg:py-5 xl:py-14 px-2 md:px-5 lg:px-5 xl:px-10 lg:flex overflow-y-auto"
+    class="hidden side-menu lg:w-[25%] xl:w-[27%] 2xl:w-[22%] h-full lg:py-5 xl:py-14 px-2 md:px-5 lg:px-5 xl:px-10 lg:flex overflow-y-auto"
   >
     <SidebarMenu />
   </div>
@@ -23,12 +23,12 @@ const { isOpen } = useSidebarState();
 
 <style>
 @media screen and (max-width: 1488px) {
-  .side-menu {
+  /* .side-menu {
     width: 30%;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-  }
+  } */
 }
 </style>
