@@ -24,6 +24,10 @@ export default {
         customGreen900: '#1d4442',
         customGreen950: '#0b2828',
       },
+      fontFamily: {
+        'quantico': ['Quantico', 'serif'],
+        'roboto': ['Roboto', 'serif'],
+      }
     },
   },
   plugins: [],
