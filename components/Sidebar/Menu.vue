@@ -18,11 +18,11 @@
     <nav>
       <ul class="mt-14 space-y-8 lg:space-y-5 xl:space-y-7 2xl:space-y-10">
         <li
-          class="group h-16 lg:h-12 xl:h-14 text-lg hover:shadow hover:bg-customGreen200 hover:font-bold dark:text-white focus:bg-black dark:hover:text-black transition duration-200 ease-out rounded-2xl flex items-center gap-4"
+          class="group h-16 lg:h-12 xl:h-14 text-lg hover:shadow hover:bg-customGreen200 hover:font-bold dark:text-white dark:hover:text-black transition duration-200 ease-out rounded-2xl flex items-center gap-4"
         >
           <a href="#about" class="flex items-center gap-5 w-full h-full">
             <span
-              class="flex justify-center items-center h-full w-14 lg:w-10 xl:w-12 2xl:w-14 bg-white dark:bg-customGreen600 rounded-2xl group-active:bg-black group-hover:text-white dark:group-hover:text-black dark:text-white group-hover:bg-customGreen600"
+              class="flex justify-center items-center h-full w-14 lg:w-10 xl:w-12 2xl:w-14 bg-white dark:bg-customGreen600 rounded-2xl group-hover:text-white dark:group-hover:text-black dark:text-white group-hover:bg-customGreen600"
             >
               <Icon
                 name="material-symbols:person"
@@ -33,11 +33,11 @@
           </a>
         </li>
         <li
-          class="group h-16 lg:h-12 xl:h-14 text-lg hover:shadow hover:bg-customGreen200 hover:font-bold dark:text-white focus:bg-black dark:hover:text-black transition duration-200 ease-out rounded-2xl flex items-center gap-4"
+          class="group h-16 lg:h-12 xl:h-14 text-lg hover:shadow hover:bg-customGreen200 hover:font-bold dark:text-white dark:hover:text-black transition duration-200 ease-out rounded-2xl flex items-center gap-4"
         >
           <a href="#experience" class="flex items-center gap-5 w-full h-full">
             <span
-              class="flex justify-center items-center h-full w-14 lg:w-10 xl:w-12 2xl:w-14 bg-white dark:bg-customGreen600 rounded-2xl group-active:bg-black group-hover:text-white dark:group-hover:text-black dark:text-white group-hover:bg-customGreen600"
+              class="flex justify-center items-center h-full w-14 lg:w-10 xl:w-12 2xl:w-14 bg-white dark:bg-customGreen600 rounded-2xl group-hover:text-white dark:group-hover:text-black dark:text-white group-hover:bg-customGreen600"
             >
               <Icon
                 name="material-symbols:trending-up-rounded"
@@ -48,11 +48,11 @@
           </a>
         </li>
         <li
-          class="group h-16 lg:h-12 xl:h-14 text-lg hover:shadow hover:bg-customGreen200 hover:font-bold dark:text-white focus:bg-black dark:hover:text-black transition duration-200 ease-out rounded-2xl flex items-center gap-4"
+          class="group h-16 lg:h-12 xl:h-14 text-lg hover:shadow hover:bg-customGreen200 hover:font-bold dark:text-white dark:hover:text-black transition duration-200 ease-out rounded-2xl flex items-center gap-4"
         >
           <a href="#projects" class="flex items-center gap-5 w-full h-full">
             <span
-              class="flex justify-center items-center h-full w-14 lg:w-10 xl:w-12 2xl:w-14 bg-white dark:bg-customGreen600 rounded-2xl group-active:bg-black group-hover:text-white dark:group-hover:text-black dark:text-white group-hover:bg-customGreen600"
+              class="flex justify-center items-center h-full w-14 lg:w-10 xl:w-12 2xl:w-14 bg-white dark:bg-customGreen600 rounded-2xl group-hover:text-white dark:group-hover:text-black dark:text-white group-hover:bg-customGreen600"
             >
               <Icon
                 name="material-symbols:folder-data-rounded"
@@ -63,11 +63,11 @@
           </a>
         </li>
         <li
-          class="group h-16 lg:h-12 xl:h-14 text-lg hover:shadow hover:bg-customGreen200 hover:font-bold dark:text-white focus:bg-black dark:hover:text-black transition duration-200 ease-out rounded-2xl flex items-center gap-4"
+          class="group h-16 lg:h-12 xl:h-14 text-lg hover:shadow hover:bg-customGreen200 hover:font-bold dark:text-white dark:hover:text-black transition duration-200 ease-out rounded-2xl flex items-center gap-4"
         >
           <a href="#contacts" class="flex items-center gap-5 w-full h-full">
             <span
-              class="flex justify-center items-center h-full w-14 lg:w-10 xl:w-12 2xl:w-14 bg-white dark:bg-customGreen600 rounded-2xl group-active:bg-black group-hover:text-white dark:group-hover:text-black dark:text-white group-hover:bg-customGreen600"
+              class="flex justify-center items-center h-full w-14 lg:w-10 xl:w-12 2xl:w-14 bg-white dark:bg-customGreen600 rounded-2xl group-hover:text-white dark:group-hover:text-black dark:text-white group-hover:bg-customGreen600"
             >
               <Icon
                 name="material-symbols:mark-email-unread"
