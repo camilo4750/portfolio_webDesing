@@ -27,8 +27,10 @@
         </div>
       </div>
     </div>
-    <div class="bg-slate-400 order-3 lg:order-none">
-      <div class="h-[500px] md:h-[500px]"></div>
+    <div class="order-3 lg:order-none flex items-end">
+      <div class="h-full lg:h-[450px] 2xl:h-[600px]">
+        <img src="/public/img/profile.jpg" alt="" class="w-full h-full object-cover rounded-t-2xl" />
+      </div>
     </div>
     <div class="flex flex-col order-2 lg:order-none">
       <div class="flex-grow flex justify-center items-center p-4 2xl:p-10">
@@ -40,7 +42,7 @@
       </div>
       <div class="flex-grow hidden lg:flex justify-center items-center px-4">
         <div
-          class="grid grid-cols-6 md:grid-cols-8 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 lg:gap-3 gap-5 mt-3"
+          class="grid grid-cols-6 md:grid-cols-8 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 lg:gap-3 gap-5 mt-3 justify-content-center"
         >
           <div v-for="skill in skills" class="flex justify-center items-center">
             <div
