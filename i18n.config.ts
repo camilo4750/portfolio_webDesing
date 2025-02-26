@@ -47,6 +47,40 @@ export default defineI18nConfig(() => ({
         seven:
           "Implementación de i18n para la creación de aplicaciones bilingües.",
       },
+      projects: {
+        title: "Mis creaciones más recientes",
+        description:
+          "Aquí presento algunos de mis últimos proyectos, para que puedas explorarlos y conocer las metodologías y tecnologías con las que fueron desarrollados.",
+        projectOne: {
+          title: "Software de administración de talleres",
+          description:
+            "Este proyecto utiliza Laravel con una arquitectura en capas y Vue con Options API, desplegado en un entorno Docker. Implementa autenticación con Fortify, " +
+            "gestión de usuarios y roles, generación de gráficos y reportes, asegurando código de calidad y escalabilidad. Además, incluye pruebas unitarias y de integración para garantizar su fiabilidad.",
+        },
+        projectTwo: {
+          title: "Versionamiento de Base de Datos para Taller",
+          description:
+            "Este proyecto implementa Laravel en un entorno Docker con conexión a una red externa, permitiendo una gestión eficiente del versionamiento de la base de datos PostgreSQL. Facilita la integración con el entorno real, " +
+            "garantizando despliegues controlados, reproducibles y confiables.",
+        },
+        projectThree: {
+          title: "Frontend con Nuxt y API externa",
+          description:
+            "Este proyecto se conecta a una API externa e implementa autenticación con JWT y middlewares. Incluye login (usuario: 'emilys', contraseña: 'emilyspass'), paginación, búsqueda de datos y validación de formularios.",
+        },
+        projectFour: {
+          title: "Interfaz y Diseño Web Interno",
+          description:
+            "Concepto de diseño web para una empresa de servicios de venta y remodelación de inmuebles.",
+        },
+        projectFive: {
+          title: "Interfaz y Diseño Web Compumedica",
+          description:
+            "Diseño web personalizado: la comunicación constante con el cliente es clave para lograr resultados satisfactorios.",
+        },
+        titleBtnRepo: "Ver repositorio",
+        titleBtnDemo: "Probar Demo",
+      },
     },
     en: {
       menuAbout: "About",
@@ -89,6 +123,40 @@ export default defineI18nConfig(() => ({
           "for its scalability and alignment with our needs.",
         six: "We implemented a sustainable and scalable frontend architecture for high-potential projects.",
         seven: "Implementation of i18n for creating bilingual applications.",
+      },
+      projects: {
+        title: "My latest creations",
+        description:
+          "Here are some of my latest projects, so you can explore them and learn about the methodologies and technologies used in their development.",
+        projectOne: {
+          title: "Workshop Management Software",
+          description:
+            "his project uses Laravel with a layered architecture and Vue with Options API, deployed in a Docker environment. It implements authentication with Fortify, " +
+            "user and role management, chart and report generation, ensuring code quality and scalability. Additionally, it includes unit and integration testing to ensure reliability.",
+        },
+        projectTwo: {
+          title: "Database Versioning for Workshop",
+          description:
+            "This project implements Laravel in a Docker environment with a connection to an external network, enabling efficient versioning management of the PostgreSQL database. It facilitates integration with the real environment, " +
+            "ensuring controlled, reproducible, and reliable deployments.",
+        },
+        projectThree: {
+          title: "Frontend with Nuxt and External API",
+          description:
+            "This project connects to an external API and implements authentication with JWT and middlewares. It includes login (user: 'emilys', password: 'emilyspass'), pagination, data search, and form validation.",
+        },
+        projectFour: {
+          title: "Internal Web Interface and Design",
+          description:
+            "Web design concept for a service company specializing in property sales and renovations.",
+        },
+        projectFive: {
+          title: "Internal Web Interface and Design Compumedica",
+          description:
+            "Custom web design: constant communication with the client is key to achieving satisfactory results.",
+        },
+        titleBtnRepo: "View repository",
+        titleBtnDemo: "Explore demo",
       },
     },
   },

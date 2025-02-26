@@ -6,6 +6,7 @@
     <div class="overflow-y-auto h-full custom-scroll">
       <SectionAbout />
       <SectionExperience />
+      <SectionProjects />
     </div>
   </main>
 </template>
@@ -14,6 +15,7 @@
 .custom-scroll{
   scroll-behavior: smooth;
 }
+
 .custom-scroll::-webkit-scrollbar {
   width: 9px;
 }
