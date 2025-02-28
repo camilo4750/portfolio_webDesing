@@ -26,7 +26,7 @@
             'Bootstrap',
           ]"
           :description="$t('projects.projectOne.description')"
-          img="/img/workShop.png"
+          img="/img/workShop.jpg"
           repositoryUrl="https://github.com/camilo4750/db_workshop_sre"
         />
         <UiSwiperCard
@@ -40,7 +40,7 @@
           :title="$t('projects.projectThree.title')"
           :technologies="['Nuxt', 'NuxtUI', 'Tailwind', 'TypeScript', 'JWT']"
           :description="$t('projects.projectThree.description')"
-          img="/img/dummyApi.png"
+          img="/img/dummyApi.jpg"
           repositoryUrl="https://github.com/camilo4750/fontend-dummy"
           page-url="https://dummapi.netlify.app/"
         />
