@@ -18,9 +18,13 @@ const props = defineProps<Props>();
     >
       <div class="h-[200px] rounded-t-2xl">
         <NuxtImg
+          format="webp"
+          fit="cover"
           :src="props.img"
           :alt="props.title"
-          class="w-full max-h-[200px] object-cover rounded-t-2xl"
+          height="200"
+          width="350"
+          class="rounded-t-2xl"
           loading="lazy"
         />
       </div>
@@ -76,13 +80,14 @@ const props = defineProps<Props>();
 
 <style scoped>
 .swiper-slide {
-    justify-content: center;
-    height: 500px;
-  }
+  justify-content: center;
+  height: 500px;
+  max-width: 400px;
+}
+
 @media screen and (max-width: 768px) {
   .swiper-slide {
     height: 555px;
   }
-  
 }
 </style>
