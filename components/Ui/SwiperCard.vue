@@ -20,7 +20,7 @@ const props = defineProps<Props>();
         <img
           :src="props.img"
           :alt="props.title"
-          class="w-full h-[200px] rounded-t-2xl"
+          class="w-full max-h-[200px] object-cover rounded-t-2xl"
         />
       </div>
       <div class="px-3">
