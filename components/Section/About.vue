@@ -2,12 +2,12 @@
   <section class="grid grid-cols-1 lg:grid-cols-3 min-h-full" id="about">
     <div class="flex flex-col">
       <div class="flex-grow pl-5 xl:pl-7 2xl:pl-14 mt-5">
-        <h4
+        <div
           class="text-6xl md:text-8xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-bold text-customGreen800 italic"
         >
           {{ $t("greetingIntro") }} <br />
           {{ $t("greetingName") }}
-        </h4>
+        </div>
       </div>
       <div class="flex-grow hidden lg:flex items-center pl-5 xl:pl-7 2xl:pl-14">
         <span
@@ -48,7 +48,7 @@
             <div
               class="h-12 lg:h-8 xl:h-10 2xl:h-14 w-12 lg:w-8 xl:w-10 2xl:w-14 p-1 2xl:p-2 rounded border border-customGreen400 shadow-md bg-customGreen50 flex justify-center items-center transition duration-300 ease-in-out hover:-translate-y-2 hover:rotate-[5deg] hover:shadow-xl hover:shadow-customGreen500"
             >
-              <NuxtImg :src="skill.src" :alt="skill.alt"  loading="lazy" />
+              <img :src="skill.src" :alt="skill.alt"  />
             </div>
           </div>
         </div>
