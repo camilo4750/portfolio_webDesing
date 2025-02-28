@@ -2,6 +2,7 @@
   <button
     class="p-1 inline-flex items-center rounded-md hover:bg-gray-300 dark:hover:bg-gray-800 dark:hover:text-white"
     @click="toggleTheme"
+    :aria-label="enabled ? 'Enable dark mode' : 'Enable light mode'"
   >
     <Icon 
       v-if="enabled" 

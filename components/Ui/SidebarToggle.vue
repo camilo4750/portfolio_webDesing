@@ -3,6 +3,7 @@
     <button
       @click="toggleSidebar"
       class="p-1 flex items-center justify-center rounded-md lg:hidden"
+      aria-label="Toggle sidebar"
     >
       <Icon v-if="isOpen" name="material-symbols:close-rounded" size="30" />
       <Icon v-else name="material-symbols:menu-rounded" size="23" />
