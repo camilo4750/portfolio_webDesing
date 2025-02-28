@@ -1,5 +1,5 @@
 <template>
-  <div class="swiper w-[100%] 2xl:w-[90%]" autoplay="true">
+  <div class="swiper" autoplay="true">
     <div class="swiper-wrapper w-[100%] 2xl:w-[90%]">
       <slot />
     </div>
@@ -54,6 +54,7 @@ onMounted(() => {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
+  min-height: 500px;
 }
 
 .swiper-button-prev,
