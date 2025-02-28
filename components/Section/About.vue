@@ -29,7 +29,14 @@
     </div>
     <div class="order-3 lg:order-none flex items-end">
       <div class="h-full lg:h-[450px] 2xl:h-[600px]">
-        <NuxtImg src="/img/profile.jpg" alt="profile" class="w-full h-full object-cover rounded-t-2xl" />
+        <NuxtImg
+          src="/img/profile.jpg"
+          alt="profile"
+          class="w-full h-full object-cover rounded-t-2xl"
+          loading="eager"
+          format="webp"
+          quality="80"
+        />
       </div>
     </div>
     <div class="flex flex-col order-2 lg:order-none">
@@ -48,7 +55,7 @@
             <div
               class="h-12 lg:h-8 xl:h-10 2xl:h-14 w-12 lg:w-8 xl:w-10 2xl:w-14 p-1 2xl:p-2 rounded border border-customGreen400 shadow-md bg-customGreen50 flex justify-center items-center transition duration-300 ease-in-out hover:-translate-y-2 hover:rotate-[5deg] hover:shadow-xl hover:shadow-customGreen500"
             >
-              <img :src="skill.src" :alt="skill.alt"  />
+              <img :src="skill.src" :alt="skill.alt" />
             </div>
           </div>
         </div>
