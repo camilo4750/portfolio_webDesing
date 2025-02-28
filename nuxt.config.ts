@@ -30,7 +30,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@nuxt/icon", "@nuxtjs/i18n"],
+  modules: ["@nuxt/icon", "@nuxtjs/i18n", "@nuxt/image"],
   i18n: {
     vueI18n: "./i18n.config.ts",
     locales: ["es", "en"],

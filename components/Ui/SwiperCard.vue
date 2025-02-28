@@ -17,10 +17,11 @@ const props = defineProps<Props>();
       class="w-[85%] md:w-full h-full flex flex-col bg-white dark:bg-gray-800 rounded-2xl shadow-md dark:shadow-md shadow-customGreen800 dark:shadow-customGreen400"
     >
       <div class="h-[200px] rounded-t-2xl">
-        <img
+        <NuxtImg
           :src="props.img"
           :alt="props.title"
           class="w-full max-h-[200px] object-cover rounded-t-2xl"
+          loading="lazy"
         />
       </div>
       <div class="px-3">
@@ -75,7 +76,13 @@ const props = defineProps<Props>();
 
 <style scoped>
 .swiper-slide {
-  justify-content: center;
-  height: 555px;
+    justify-content: center;
+    height: 500px;
+  }
+@media screen and (max-width: 768px) {
+  .swiper-slide {
+    height: 555px;
+  }
+  
 }
 </style>
