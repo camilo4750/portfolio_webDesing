@@ -17,7 +17,7 @@
         <br />
         {{ $t("jobPositionSavne") }}
       </p>
-      <li class="mb-10 ms-4 list-none">
+      <div class="mb-10 ms-4 list-none">
         <div
           class="absolute w-3 h-3 bg-customGreen700 rounded-full mt-1.5 -start-1.5 border border-black dark:border-white dark:bg-customGreen700"
         >
@@ -48,8 +48,8 @@
             </li>
           </ul>
         </div>
-      </li>
-      <li class="mb-10 ms-4 list-none">
+      </div>
+      <div class="mb-10 ms-4 list-none">
         <div
           class="absolute w-3 h-3 bg-customGreen700 rounded-full mt-1.5 -start-1.5 border border-black dark:border-white"
         >
@@ -89,7 +89,7 @@
             </li>
           </ul>
         </div>
-      </li>
+      </div>
     </div>
   </section>
 </template>
