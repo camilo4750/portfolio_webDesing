@@ -11,13 +11,14 @@
       </div>
       <div class="flex-grow hidden lg:flex items-center pl-5 xl:pl-7 2xl:pl-14">
         <span
-          class="lg:text-sm 2xl:text-lg font-semibol text-[#c79825] dark:text-[#fdb200] font-medium"
+          class="lg:text-sm 2xl:text-lg font-semibol text-[#c79825] dark:text-[#fdb200] font-medium animatedLeft__"
           >witcamdev@gmail.com
         </span>
       </div>
       <div
         class="flex-grow hidden lg:flex lg:flex-col justify-center pl-5 xl:pl-7 2xl:pl-14"
       >
+      <div class="animatedLeft__">
         <div class="flex items-center">
           <span class="lg:text-5xl 2xl:text-6xl font-bold text-customGreen800">
             3
@@ -29,6 +30,8 @@
         </div>
 
         <UiDownloadCv />
+      </div>
+        
       </div>
     </div>
     <div class="order-3 lg:order-none flex items-end">
@@ -47,18 +50,21 @@
       <div
         class="flex-grow flex flex-col md:justify-center items-center p-4 2xl:p-10"
       >
+      <div class="animatedRigth__">
         <p
-          class="md:text-lg lg:text-[11px] xl:text-xs 2xl:text-sm text-start lg:text-center leading-[18px]"
+          class="md:text-lg lg:text-[11px] xl:text-xs 2xl:text-sm text-start lg:text-center leading-[18px] animatedRigth__"
         >
           {{ $t("aboutMe") }}
         </p>
-        <UiDownloadCv class="lg:hidden w-[90%] mt-3" />
+        <UiDownloadCv class="lg:hidden w-[90%] mt-3 mx-auto" />
+      </div>
+        
       </div>
       <div class="flex-grow hidden lg:flex justify-center items-center px-4">
         <div
           class="grid grid-cols-6 md:grid-cols-8 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 lg:gap-3 gap-5 mt-3 justify-content-center"
         >
-          <div v-for="skill in skills" class="flex justify-center items-center">
+          <div v-for="skill in skills" class="flex justify-center items-center animatedRigth__">
             <div
               class="h-12 lg:h-8 xl:h-10 2xl:h-14 w-12 lg:w-8 xl:w-10 2xl:w-14 p-1 2xl:p-2 rounded border border-customGreen400 shadow-md bg-customGreen50 flex justify-center items-center transition duration-300 ease-in-out hover:-translate-y-2 hover:rotate-[5deg] hover:shadow-xl hover:shadow-customGreen500"
             >

@@ -16,9 +16,12 @@ onMounted(() => {
     const sr = ScrollReveal({
       origin: "left",
       distance: "60px",
-      duration: 3000,
-      delay: 600,
-    }).reveal('.animatedLeft__');
+      duration: 2000,
+      delay: 300,
+    })
+
+    sr.reveal('.animatedLeft__');
+    sr.reveal('.animatedRigth__', { origin: "rigth" })
   }
   
 });
