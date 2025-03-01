@@ -7,6 +7,7 @@
       <SectionAbout />
       <SectionExperience />
       <SectionProjects />
+      <SectionContact />
     </div>
   </main>
 </template>

@@ -14,6 +14,7 @@ export default defineI18nConfig(() => ({
       greetingName: "soy Camilo",
       experienceYear: "AÑOS DE",
       experienceDescription: "EXPERIENCIA",
+      textBntCv: "Descargar CV",
       aboutMe:
         "Durante mi trayectoria como desarrollador web, he trabajado con una amplia variedad de tecnologías, creando soluciones " +
         "innovadoras para servicios de entrega y optimizando operaciones logísticas a gran escala. Me concentro en desarrollar aplicaciones " +
@@ -81,6 +82,23 @@ export default defineI18nConfig(() => ({
         titleBtnRepo: "Ver repositorio",
         titleBtnDemo: "Probar Demo",
       },
+      contact: {
+        title: "Contáctame",
+        subtitle: "Construyamos proyectos increíbles juntos!",
+        description:
+          "Siempre en búsqueda de aprender, compartir conocimientos y crecer tanto profesional como personalmente. " +
+          "Cada oportunidad es un paso hacia la evolución, y mi compromiso es dar siempre lo mejor de mí. Si tienes un proyecto, " +
+          "idea o simplemente quieres conectar, estaré encantado de escucharte.",
+        telephone: {
+          title: "Llámanos",
+          titleBtn: "Enviar mensaje",
+        },
+        email: {
+          title: "Envíanos un correo",
+          titleBtn: "Enviar correo",
+        },
+      },
+      footer: "Reservados todos los derechos",
     },
     en: {
       menuAbout: "About",
@@ -94,6 +112,7 @@ export default defineI18nConfig(() => ({
       greetingName: "I'm Camilo",
       experienceYear: "YEARS",
       experienceDescription: "EXPERIENCE",
+      textBntCv: "Download CV",
       aboutMe:
         "During my trajectory as a web developer, I have worked with a wide variety of technologies, creating innovative solutions for " +
         "delivery services and optimizing large-scale logistics operations. I focus on developing efficient, scalable, and user-oriented applications.",
@@ -158,6 +177,25 @@ export default defineI18nConfig(() => ({
         titleBtnRepo: "View repository",
         titleBtnDemo: "Explore demo",
       },
+      contact: {
+        title: "Contact me",
+        subtitle: "Let's build amazing projects together!",
+        description:
+          "Always seeking to learn, share knowledge, and grow both professionally and personally. " +
+          "Every opportunity is a step toward evolution, and my commitment is to always give my best. If you have a project, " +
+          "an idea, or just want to connect, I’d be happy to hear from you",
+        titleTelephone: "Call us",
+        telephone: {
+          title: "Call us",
+          titleBtn: "Send message",
+        },
+        email: {
+          title: "Send us an email",
+          titleBtn: "Send email",
+        },
+      },
+      footer: "All rights reserved",
     },
+
   },
 }));
