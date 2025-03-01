@@ -3,7 +3,7 @@
     <div class="flex flex-col">
       <div class="flex-grow pl-5 xl:pl-7 2xl:pl-14 mt-5">
         <div
-          class="text-6xl md:text-8xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-bold text-customGreen800 italic"
+          class="text-6xl md:text-8xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-bold text-customGreen800 italic animatedLeft__"
         >
           {{ $t("greetingIntro") }} <br />
           {{ $t("greetingName") }}
@@ -11,13 +11,15 @@
       </div>
       <div class="flex-grow hidden lg:flex items-center pl-5 xl:pl-7 2xl:pl-14">
         <span
-          class="lg:text-sm 2xl:text-lg font-semibol text-[#c79825] font-medium"
+          class="lg:text-sm 2xl:text-lg font-semibol text-[#c79825] dark:text-[#fdb200] font-medium"
           >witcamdev@gmail.com
         </span>
       </div>
-      <div class="flex-grow hidden lg:flex pl-5 xl:pl-7 2xl:pl-14">
+      <div
+        class="flex-grow hidden lg:flex lg:flex-col justify-center pl-5 xl:pl-7 2xl:pl-14"
+      >
         <div class="flex items-center">
-          <span class="lg:text-4xl xl:text-6xl font-bold text-customGreen800">
+          <span class="lg:text-5xl 2xl:text-6xl font-bold text-customGreen800">
             3
           </span>
           <span class="ml-2 leading-[18px]">
@@ -25,6 +27,8 @@
             {{ $t("experienceDescription") }}
           </span>
         </div>
+
+        <UiDownloadCv />
       </div>
     </div>
     <div class="order-3 lg:order-none flex items-end">
@@ -40,12 +44,15 @@
       </div>
     </div>
     <div class="flex flex-col order-2 lg:order-none">
-      <div class="flex-grow flex justify-center items-center p-4 2xl:p-10">
-        <div
-          class="md:text-lg lg:text-[11px] xl:text-xs 2xl:text-sm text-start lg:text-center font-medium"
+      <div
+        class="flex-grow flex flex-col md:justify-center items-center p-4 2xl:p-10"
+      >
+        <p
+          class="md:text-lg lg:text-[11px] xl:text-xs 2xl:text-sm text-start lg:text-center leading-[18px]"
         >
           {{ $t("aboutMe") }}
-        </div>
+        </p>
+        <UiDownloadCv class="lg:hidden w-[90%] mt-3" />
       </div>
       <div class="flex-grow hidden lg:flex justify-center items-center px-4">
         <div

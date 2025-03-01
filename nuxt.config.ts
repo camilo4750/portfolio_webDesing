@@ -9,6 +9,9 @@ export default defineNuxtConfig({
       },
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
+      script: [
+        { src: "/js/scrollreveal.min.js"}
+      ],
       link: [
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
         {
@@ -28,6 +31,7 @@ export default defineNuxtConfig({
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
+      cssnano: {},
     },
   },
   modules: ["@nuxt/icon", "@nuxtjs/i18n", "@nuxt/image"],
