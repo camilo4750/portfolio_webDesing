@@ -2,18 +2,18 @@
 
 <template>
   <section
-    class="min-h-full grid grid-cols-1 2xl:grid-cols-4 p-5"
+    class="min-h-full flex flex-col justify-center items-center p-5"
     id="projects"
   >
-    <div class="flex flex-col justify-center py-4 text-center 2xl:text-start">
-      <h2 class="font-bold text-4xl md:text-5xl font-quantico mb-2">
+    <div class="py-4 text-center w-[80%]">
+      <h2 class="font-bold text-4xl md:text-5xl font-quantico mb-2 ">
         {{ $t("projects.title") }}
       </h2>
       <p>
         {{ $t("projects.description") }}
       </p>
     </div>
-    <div class="flex justify-center items-center xl:col-span-3">
+    <div class="w-full 2xl:w-[80%] mx-auto">
       <UiSwiper>
         <UiSwiperCard
           :title="$t('projects.projectOne.title')"
