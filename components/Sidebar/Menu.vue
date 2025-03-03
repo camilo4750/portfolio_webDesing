@@ -20,7 +20,11 @@
         <li
           class="group h-16 lg:h-12 xl:h-14 text-lg hover:shadow hover:bg-customGreen200 hover:font-bold dark:text-white dark:hover:text-black transition duration-200 ease-out rounded-2xl flex items-center gap-4"
         >
-          <a href="#about" class="flex items-center gap-5 w-full h-full">
+          <a
+            href="#about"
+            @click="toggleSidebar"
+            class="flex items-center gap-5 w-full h-full"
+          >
             <span
               class="flex justify-center items-center h-full w-14 lg:w-10 xl:w-12 2xl:w-14 bg-white dark:bg-customGreen600 rounded-2xl group-hover:text-white dark:group-hover:text-black dark:text-white group-hover:bg-customGreen600"
             >
@@ -35,7 +39,11 @@
         <li
           class="group h-16 lg:h-12 xl:h-14 text-lg hover:shadow hover:bg-customGreen200 hover:font-bold dark:text-white dark:hover:text-black transition duration-200 ease-out rounded-2xl flex items-center gap-4"
         >
-          <a href="#experience" class="flex items-center gap-5 w-full h-full">
+          <a
+            href="#experience"
+            @click="toggleSidebar"
+            class="flex items-center gap-5 w-full h-full"
+          >
             <span
               class="flex justify-center items-center h-full w-14 lg:w-10 xl:w-12 2xl:w-14 bg-white dark:bg-customGreen600 rounded-2xl group-hover:text-white dark:group-hover:text-black dark:text-white group-hover:bg-customGreen600"
             >
@@ -50,7 +58,11 @@
         <li
           class="group h-16 lg:h-12 xl:h-14 text-lg hover:shadow hover:bg-customGreen200 hover:font-bold dark:text-white dark:hover:text-black transition duration-200 ease-out rounded-2xl flex items-center gap-4"
         >
-          <a href="#projects" class="flex items-center gap-5 w-full h-full">
+          <a
+            href="#projects"
+            @click="toggleSidebar"
+            class="flex items-center gap-5 w-full h-full"
+          >
             <span
               class="flex justify-center items-center h-full w-14 lg:w-10 xl:w-12 2xl:w-14 bg-white dark:bg-customGreen600 rounded-2xl group-hover:text-white dark:group-hover:text-black dark:text-white group-hover:bg-customGreen600"
             >
@@ -65,7 +77,11 @@
         <li
           class="group h-16 lg:h-12 xl:h-14 text-lg hover:shadow hover:bg-customGreen200 hover:font-bold dark:text-white dark:hover:text-black transition duration-200 ease-out rounded-2xl flex items-center gap-4"
         >
-          <a href="#contacts" class="flex items-center gap-5 w-full h-full">
+          <a
+            href="#contacts"
+            @click="toggleSidebar"
+            class="flex items-center gap-5 w-full h-full"
+          >
             <span
               class="flex justify-center items-center h-full w-14 lg:w-10 xl:w-12 2xl:w-14 bg-white dark:bg-customGreen600 rounded-2xl group-hover:text-white dark:group-hover:text-black dark:text-white group-hover:bg-customGreen600"
             >
@@ -91,3 +107,7 @@
     </footer>
   </header>
 </template>
+
+<script setup lang="ts">
+const { toggleSidebar } = useSidebarState();
+</script>
