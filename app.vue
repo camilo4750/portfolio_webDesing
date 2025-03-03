@@ -6,23 +6,28 @@
   </div>
 </template>
 <script setup lang="ts">
+const { $scrollEffects } = useNuxtApp();
+
 useHead({
   title: "WitCamDev",
   meta: [{ name: "description", content: "personal portfolio" }],
 });
 
 onMounted(() => {
-  if (typeof window !== "undefined" && typeof ScrollReveal !== "undefined") {
-    const sr = ScrollReveal({
-      origin: "left",
-      distance: "60px",
-      duration: 2000,
-      delay: 300,
-    })
+  new $scrollEffects({
+    selector: ".animateLeft__",
+    origin: "left",
+    distance: "80px",
+    duration: 2500,
+    delay: 500,
+  });
 
-    sr.reveal('.animatedLeft__');
-    sr.reveal('.animatedRigth__', { origin: "rigth" })
-  }
-  
+  new $scrollEffects({
+    selector: ".animateRight__",
+    origin: "right",
+    distance: "80px",
+    duration: 2500,
+    delay: 500,
+  });
 });
 </script>
