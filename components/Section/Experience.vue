@@ -11,7 +11,7 @@
       class="relative border-s border-customGreen400 dark:border-customGreen200 md:ms-[8rem] md:me-10"
     >
       <p
-        class="leading-5 ml-3 mb-3 text-sm font-bold italic md:ml-0 md:mb-0 md:-start-[130px] md:absolute md:top-0"
+        class="leading-5 ml-3 mb-3 text-sm font-bold italic md:ml-0 md:mb-0 md:-start-[130px] md:absolute md:top-0 animateLeft__"
       >
         Savne Sass
         <br />
@@ -33,7 +33,7 @@
           {{ $t("juniorSavneExperience.title") }}
         </h3>
         <div class="mb-4 text-base font-normal text-black dark:text-gray-950">
-          <ul class="list-disc list-outside ml-4">
+          <ul class="list-disc list-outside ml-4 animateRight__">
             <li>
               {{ $t("juniorSavneExperience.one") }}
             </li>
@@ -65,7 +65,7 @@
           {{ $t("semiSeniorSavneExperience.title") }}
         </h3>
         <div class="mb-4 text-base font-normal text-black dark:text-gray-950">
-          <ul class="list-disc list-outside ml-4">
+          <ul class="list-disc list-outside ml-4 animateRight__">
             <li>
               {{ $t("semiSeniorSavneExperience.one") }}
             </li>

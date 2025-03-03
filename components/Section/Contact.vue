@@ -14,7 +14,7 @@ onMounted(() => {
 <template>
   <section class="min-h-full flex flex-col" id="contacts">
     <div class="flex-grow grid grid-cols-1 md:grid-cols-2">
-      <div class="flex flex-col justify-center p-3 2xl:p-8 text-center">
+      <div class="flex flex-col justify-center p-3 2xl:p-8 text-center animateLeft__">
         <h3 class="font-bold text-3xl xl:text-4xl font-quantico py-2">
           {{ $t("contact.subtitle") }}
         </h3>
@@ -22,9 +22,9 @@ onMounted(() => {
           {{ $t("contact.description") }}
         </p>
         <div
-          class="grid grid-cols-1 xl:grid-cols-2 my-10 space-y-5 xl:space-y-0"
+          class="grid grid-cols-1 xl:grid-cols-2 my-10 space-y-10 xl:space-y-0 "
         >
-          <div>
+          <div class="animateLeft__">
             <div class="flex justify-center gap-2 mb-2 dark:text-white">
               <Icon
               class=""
@@ -61,7 +61,7 @@ onMounted(() => {
               </a>
             </div>
           </div>
-          <div>
+          <div class="animateRight__">
             <div class="flex justify-center gap-2 mb-2 dark:text-white">
               <Icon
                 name="material-symbols:attach-email-outline-rounded"
@@ -88,7 +88,7 @@ onMounted(() => {
         <NuxtImg
           src="/img/contact.svg"
           alt="contact"
-          class="h-[70%] w-[70%]"
+          class="h-[70%] w-[70%] animateRight__"
           loading="lazy"
         />
       </div>

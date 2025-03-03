@@ -13,8 +13,8 @@
         {{ $t("projects.description") }}
       </p>
     </div>
-    <div class="w-full 2xl:w-[80%] mx-auto">
-      <UiSwiper>
+    <div class="w-full 2xl:w-[80%] mx-auto animateLeft__">
+      <UiSwiper class="animateLeft__">
         <UiSwiperCard
           :title="$t('projects.projectOne.title')"
           :technologies="[
