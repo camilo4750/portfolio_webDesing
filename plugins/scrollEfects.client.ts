@@ -1,5 +1,6 @@
 export default defineNuxtPlugin(() => {
   class ScrollEffects {
+    container: HTMLElement | null;
     elements: NodeListOf<HTMLElement>;
     origin: string;
     distance: string;
@@ -7,17 +8,26 @@ export default defineNuxtPlugin(() => {
     delay: number;
 
     constructor({
+      containerSelector = "#scroll-container",
       selector = "",
       origin = "left",
       distance = "60px",
       duration = 1000,
       delay = 350,
     } = {}) {
+      this.container = document.querySelector(containerSelector);
       this.elements = document.querySelectorAll(selector);
       this.origin = origin;
       this.distance = distance;
       this.duration = duration;
       this.delay = delay;
+
+      if (!this.container) {
+        console.warn(
+          `No se encontró el contenedor "${containerSelector}". ScrollEffect no se activará.`
+        );
+        return;
+      }
 
       this.init();
     }
@@ -34,17 +44,22 @@ export default defineNuxtPlugin(() => {
         el.style.transition = "none";
       });
 
-      window.addEventListener("scroll", () => this.revealOnScroll());
+      this.container?.addEventListener("scroll", () => this.revealOnScroll());
       this.revealOnScroll();
     }
 
     revealOnScroll() {
-      const windowHeight = window.innerHeight;
+      // Altura del contenedor
+      const containerHeight = this.container!.clientHeight;
 
       this.elements.forEach((el) => {
-        const position = el.getBoundingClientRect().top;
-        const direction = this.origin;
-        if (position < windowHeight * 0.85) {
+        const rect = el.getBoundingClientRect();
+        const containerRect = this.container!.getBoundingClientRect();
+        
+        // Ajustar posición relativa al contenedor
+        const position = rect.top - containerRect.top; 
+
+        if (position < containerHeight * 0.85) {
           el.style.transition = `transform ${this.duration}ms ease-out ${this.delay}ms, opacity ${this.duration}ms ease-out ${this.delay}ms`;
           el.style.opacity = "1";
           el.style.transform = "translateX(0)";
