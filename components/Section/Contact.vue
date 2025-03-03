@@ -3,18 +3,28 @@ const phoneNumber = "573145978382";
 const message = "Hola, quiero más información sobre tu servicio.";
 const whatsappLink = ref("");
 
+const myEmail = "witcamdev@gmail.com";
+const subject = encodeURIComponent("Información laboral");
+const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${myEmail}&su=${subject}`;
+
 onMounted(() => {
   const isMobile = /iPhone|Android/i.test(navigator.userAgent);
   whatsappLink.value = isMobile
-    ? `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`
-    : `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+    ? `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
+        message
+      )}`
+    : `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
+        message
+      )}`;
 });
 </script>
 
 <template>
   <section class="min-h-full flex flex-col" id="contacts">
     <div class="flex-grow grid grid-cols-1 md:grid-cols-2">
-      <div class="flex flex-col justify-center p-3 2xl:p-8 text-center animateLeft__">
+      <div
+        class="flex flex-col justify-center p-3 2xl:p-8 text-center animateLeft__"
+      >
         <h3 class="font-bold text-3xl xl:text-4xl font-quantico py-2">
           {{ $t("contact.subtitle") }}
         </h3>
@@ -22,12 +32,12 @@ onMounted(() => {
           {{ $t("contact.description") }}
         </p>
         <div
-          class="grid grid-cols-1 xl:grid-cols-2 my-10 space-y-10 xl:space-y-0 "
+          class="grid grid-cols-1 xl:grid-cols-2 my-10 space-y-10 xl:space-y-0"
         >
           <div class="animateLeft__">
             <div class="flex justify-center gap-2 mb-2 dark:text-white">
               <Icon
-              class=""
+                class=""
                 name="material-symbols:phone-in-talk-outline-rounded"
                 size="25"
               />
@@ -37,12 +47,12 @@ onMounted(() => {
               }}</span>
             </div>
             <div class="">
-              <p class="mb-2 text-center ">+(57) 314 597 8382</p>
+              <p class="mb-2 text-center">+(57) 314 597 8382</p>
               <a
                 :href="whatsappLink"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="flex justify-center items-center lg:w-[90%] gap-2 mx-auto bg-customGreen600 text-white px-3 py-2 rounded-full"
+                class="flex justify-center items-center lg:w-[90%] gap-2 mx-auto bg-customGreen600 hover:bg-customGreen900 hover:shadow-lg transition ease-out delay-150 duration-300 text-white px-3 py-2 rounded-full"
               >
                 <span>{{ $t("contact.telephone.titleBtn") }}</span>
                 <svg
@@ -70,9 +80,11 @@ onMounted(() => {
               <span class="font-bold">{{ $t("contact.email.title") }}</span>
             </div>
             <div>
-              <p class="mb-2 text-center ">witcamdev@gamil.com</p>
+              <p class="mb-2 text-center">witcamdev@gamil.com</p>
               <a
-                class="flex justify-center items-center lg:w-[90%] gap-2 mx-auto bg-customGreen600 text-white px-3 py-2 rounded-full"
+                :href="gmailUrl"
+                target="_blank"
+                class="flex justify-center items-center lg:w-[90%] gap-2 mx-auto bg-customGreen600 hover:bg-customGreen900 hover:shadow-lg transition ease-out duration-300 delay-150 text-white px-3 py-2 rounded-full"
               >
                 <span>{{ $t("contact.email.titleBtn") }}</span>
                 <Icon
@@ -84,7 +96,9 @@ onMounted(() => {
           </div>
         </div>
       </div>
-      <div class="hidden md:flex justify-center items-center bg-gray-200 dark:bg-gray-600">
+      <div
+        class="hidden md:flex justify-center items-center bg-gray-200 dark:bg-gray-600"
+      >
         <NuxtImg
           src="/img/contact.svg"
           alt="contact"
