@@ -1,5 +1,5 @@
 <template>
-  <section class="grid grid-cols-1 lg:grid-cols-3 min-h-full overflow-x-hidden" id="about">
+  <section class="grid grid-cols-1 lg:grid-cols-3 min-h-full" id="about">
     <div class="flex flex-col">
       <div class="flex-grow pl-5 xl:pl-7 2xl:pl-14 mt-5">
         <div

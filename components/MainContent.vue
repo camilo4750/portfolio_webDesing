@@ -3,7 +3,7 @@
     class="w-[97%] lg:w-[82%] h-[96%] lg:h-[95%] bg-gray-100 dark:bg-gray-400 rounded-2xl lg:mr-5 overflow-hidden grid grid-rows-[auto_1fr]"
   >
     <UiSubmenu />
-    <div class="overflow-y-auto h-full custom-scroll">
+    <div id="scroll-container" class="overflow-y-auto  overflow-x-hidden h-full custom-scroll">
       <SectionAbout />
       <SectionExperience />
       <SectionProjects />
