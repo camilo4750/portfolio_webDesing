@@ -94,6 +94,24 @@ onMounted(() => {
               </a>
             </div>
           </div>
+          <div class="animateLeft__ xl:col-span-2 2xl:w-[400px] xl:mx-auto md:pt-7">
+            <div class="flex justify-center gap-2 mb-2 dark:text-white mx-auto">
+              <span class="font-bold">{{ $t("contact.linkedin.title") }}</span>
+            </div>
+            <div>
+              <a
+                href="https://www.linkedin.com/in/witcamdev/"
+                target="_blank"
+                class="flex justify-center items-center lg:w-[90%] gap-1 mx-auto bg-customGreen600 hover:bg-customGreen900 hover:shadow-lg transition ease-out duration-300 delay-150 text-white px-3 py-2 rounded-full"
+              >
+                <span>{{ $t("contact.linkedin.titleBtn") }}</span>
+                <Icon
+                  name="material-symbols:lightbulb-2-outline-rounded"
+                  size="24"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <div

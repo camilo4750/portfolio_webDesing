@@ -104,6 +104,10 @@ export default defineI18nConfig(() => ({
           title: "Envíanos un correo",
           titleBtn: "Enviar correo",
         },
+        linkedin: {
+          title: "Te invito a revisar mi perfil de LinkedIn",
+          titleBtn: "Revisar",
+        },
       },
       footer: "Reservados todos los derechos",
     },
@@ -144,16 +148,20 @@ export default defineI18nConfig(() => ({
         three:
           "Designed and implemented scalable architectures in Laravel, applying a layered structure with the Repository and Service patterns.",
         four: "Used C4 models in StarUML to document system architecture and define class-level structures",
-        five:
-          "Developed complete systems from scratch using Laravel and Vue 3, leveraging Docker and PostgreSQL to ensure scalability in high-traffic environments.",
+        five: "Developed complete systems from scratch using Laravel and Vue 3, leveraging Docker and PostgreSQL to ensure scalability in high-traffic environments.",
         six: "Implemented unit, integration, and functional tests with PHPUnit, utilizing Mocking to simulate dependencies and ensuring 100% coverage in key modules.",
-        seven: "Led mentorship for junior developers, conducting code reviews in GitLab, correcting logic and implementation errors, and providing feedback to enhance code quality.",
-        eight: "Applied JWT authentication in Laravel within a decoupled architecture, strengthening system security and reducing vulnerabilities ",
+        seven:
+          "Led mentorship for junior developers, conducting code reviews in GitLab, correcting logic and implementation errors, and providing feedback to enhance code quality.",
+        eight:
+          "Applied JWT authentication in Laravel within a decoupled architecture, strengthening system security and reducing vulnerabilities ",
         nine: "Contributed to the implementation of a modular architecture for a REST API with Nuxt 3, Nuxt UI, TypeScript, and TailwindCSS.",
         ten: "Design and coded modular and efficient components.",
-        eleven: "Optimized system performance by applying strategies such as lazy loading, caching, and SSR/ISR.",
-        twelve: "Configured and customized i18n to support bilingual applications, expanding system reach and enhancing accessibility. ",
-        thirteen: "Intermediate English (B1) – Ability to hold conversations and read technical documentation.",
+        eleven:
+          "Optimized system performance by applying strategies such as lazy loading, caching, and SSR/ISR.",
+        twelve:
+          "Configured and customized i18n to support bilingual applications, expanding system reach and enhancing accessibility. ",
+        thirteen:
+          "Intermediate English (B1) – Ability to hold conversations and read technical documentation.",
       },
       projects: {
         title: "My latest creations",
@@ -204,6 +212,10 @@ export default defineI18nConfig(() => ({
         email: {
           title: "Send us an email",
           titleBtn: "Send email",
+        },
+        linkedin: {
+          title: "I invite you to check out my LinkedIn profile.",
+          titleBtn: "Check out",
         },
       },
       footer: "All rights reserved",
