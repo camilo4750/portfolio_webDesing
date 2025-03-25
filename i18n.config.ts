@@ -86,6 +86,11 @@ export default defineI18nConfig(() => ({
           description:
             "Diseño web personalizado: la comunicación constante con el cliente es clave para lograr resultados satisfactorios.",
         },
+        projectSix: {
+          title: "Interfaz y Diseño Web DevWork",
+          description:
+            "Diseño web personalizado: Concepto de diseño web para una empresa de servicios technologicos he innovadores",
+        },
         titleBtnRepo: "Ver repositorio",
         titleBtnDemo: "Probar Demo",
       },
@@ -193,6 +198,11 @@ export default defineI18nConfig(() => ({
           title: "Internal Web Interface and Design Compumedica",
           description:
             "Custom web design: constant communication with the client is key to achieving satisfactory results.",
+        },
+        projectSix: {
+          title: "Interface and Web Design DevWork",
+          description:
+            "Custom Web Design: Web design concept for a technology and innovation services company.",
         },
         titleBtnRepo: "View repository",
         titleBtnDemo: "Explore demo",

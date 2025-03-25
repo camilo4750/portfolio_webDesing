@@ -60,6 +60,14 @@
           repositoryUrl="https://github.com/camilo4750/compumedica_webDesign"
           page-url="https://compumedica.netlify.app/"
         />
+        <UiSwiperCard
+          :title="$t('projects.projectSix.title')"
+          :technologies="['Html', 'Css', 'Bootstrap']"
+          :description="$t('projects.projectSix.description')"
+          img="/img/devwork.jpg"
+          repositoryUrl="https://github.com/camilo4750/DevWork"
+          page-url="https://wdevwork.netlify.app/"
+        />
       </UiSwiper>
     </div>
   </section>
