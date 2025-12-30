@@ -2,14 +2,12 @@
   <section class="grid grid-cols-1 lg:grid-cols-3 min-h-full" id="about">
     <div class="flex flex-col">
       <div class="flex-grow pl-5 xl:pl-7 2xl:pl-14 mt-5">
-        <p
-          class="text-6xl font-bold italic md:text-8xl lg:text-4xl xl:text-5xl 2xl:text-7xl text-customGreen800 opacity-0 animateLeft__"
-        >
-          {{ $t("greetingIntro") }} <br />
+        <p class="font-bold italic text-5xl sm:text-6xl md:text-7xl lg:text-4xl xl:text-5xl 2xl:text-7xl text-customGreen800 opacity-0 animateLeft__">
+          {{ $t("greetingIntro") }} <br class="hidden lg:block" />
           {{ $t("greetingName") }}
       </p>
       </div>
-      <div class="flex-grow hidden lg:flex items-center pl-5 xl:pl-7 2xl:pl-14">
+      <div class="flex-grow flex items-center mt-3  md:mt-0 pl-5 xl:pl-7 2xl:pl-14">
         <span
           class="lg:text-sm 2xl:text-lg font-semibol text-[#c79825] dark:text-[#fdb200] font-medium opacity-0 animateLeft__"
           >witcamdev@gmail.com
@@ -21,7 +19,7 @@
       <div class="opacity-0 animateLeft__">
         <div class="flex items-center">
           <span class="lg:text-5xl 2xl:text-6xl font-bold text-customGreen800">
-            3
+            4
           </span>
           <span class="ml-2 leading-[18px]">
             {{ $t("experienceYear") }} <br />
@@ -34,9 +32,8 @@
         
       </div>
     </div>
-    <div class="order-3 lg:order-none flex items-end">
-      <div class="h-full lg:h-[450px] 2xl:h-[600px]">
-        <NuxtImg
+    <div class="order-3 lg:order-none flex items-end justify-center">
+      <div class="h-[300px] sm:h-[400px] lg:h-[450px] xl:h-[500px] 2xl:h-[600px] w-full max-w-md lg:max-w-none">        <NuxtImg
           src="/img/profile.jpg"
           alt="profile"
           class="w-full h-full object-cover rounded-t-2xl"
@@ -47,13 +44,9 @@
       </div>
     </div>
     <div class="flex flex-col order-2 lg:order-none">
-      <div
-        class="flex-grow flex flex-col md:justify-center items-center p-4 2xl:p-10"
-      >
+      <div class="flex-grow flex flex-col justify-center items-center p-4 sm:p-6 lg:p-4 xl:p-6 2xl:p-10">
       <div class="opacity-0 animateRight__">
-        <p
-          class="md:text-lg lg:text-[11px] xl:text-xs 2xl:text-sm text-start lg:text-center leading-[18px]"
-        >
+        <p class="text-sm sm:text-base md:text-lg lg:text-sm xl:text-base 2xl:text-lg text-start lg:text-center leading-relaxed sm:leading-7 md:leading-7 lg:leading-6 xl:leading-7 2xl:leading-8">
           {{ $t("aboutMe") }}
         </p>
         <UiDownloadCv class="lg:hidden w-[90%] mt-3 mx-auto" />
@@ -62,7 +55,7 @@
       </div>
       <div class="flex-grow hidden lg:flex justify-center items-center px-4 ">
         <div
-          class="grid grid-cols-6 md:grid-cols-8 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 lg:gap-3 gap-5 mt-3 justify-content-center "
+          class="grid grid-cols-6 md:grid-cols-8 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 lg:gap-3 gap-5 mt-3 justify-items-center"
         >
           <div v-for="skill in skills" class="flex justify-center items-center opacity-0 animateRight__">
             <div
