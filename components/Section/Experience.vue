@@ -8,113 +8,217 @@
     </h2>
 
     <div
-      class="relative border-s border-customGreen400 dark:border-customGreen200 md:ms-[8rem] md:me-10"
+      class="relative border-s border-customGreen400 dark:border-customGreen200 md:ms-[8rem] md:me-10 "
     >
-      <p
-        class="leading-5 ml-3 mb-3 text-sm font-bold italic md:ml-0 md:mb-0 md:-start-[130px] md:absolute md:top-0 animateLeft__"
-      >
-        Savne Sass
-        <br />
-        {{ $t("jobPositionSavne") }}
-      </p>
-      <div class="mb-10 ms-4 list-none">
+      <!-- Personal Projects -->
+      <div class="mb-10 ms-4 md:ms-0 list-none relative min-h-[100px]">
+        <p
+          class="leading-5 ml-3 mb-3 text-sm font-bold italic md:ml-0 md:mb-0 md:-start-[130px] md:absolute md:top-0 md:w-[120px] md:text-right md:pr-2 animateLeft__"
+        >
+          {{ $t("experiencePersonalProjects.company") }}
+        </p>
         <div
-          class="absolute w-3 h-3 bg-customGreen700 rounded-full mt-1.5 -start-1.5 border border-black dark:border-white"
+          class="absolute w-3 h-3 bg-customGreen700 rounded-full mt-1.5 -start-1.5 border border-black dark:border-white z-10"
         >
           <span
             class="animate-ping absolute inline-flex h-full w-full rounded-full bg-customGreen600 opacity-75"
           ></span>
         </div>
-        <time
-          class="mb-1 text-sm font-normal leading-none text-customGreen500 dark:text-customGreen800"
-          >Abril 2023 - Noviembre 2024
-        </time>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-          {{ $t("semiSeniorSavneExperience.title") }}
-        </h3>
-        <div class="mb-4 text-base font-normal text-black dark:text-gray-950">
-          <ul class="list-disc list-outside ml-4 animateRight__">
-            <li>
-              {{ $t("semiSeniorSavneExperience.one") }}
-            </li>
-            <li>
-              {{ $t("semiSeniorSavneExperience.two") }}
-            </li>
-            <li>
-              {{ $t("semiSeniorSavneExperience.three") }}
-            </li>
-            <li>
-              {{ $t("semiSeniorSavneExperience.four") }}
-            </li>
-            <li>
-              {{ $t("semiSeniorSavneExperience.five") }}
-            </li>
-            <li>
-              {{ $t("semiSeniorSavneExperience.six") }}
-            </li>
-            <li>
-              {{ $t("semiSeniorSavneExperience.seven") }}
-            </li>
-            <li>
-              {{ $t("semiSeniorSavneExperience.eight") }}
-            </li>
-            <li>
-              {{ $t("semiSeniorSavneExperience.nine") }}
-            </li>
-            <li>
-              {{ $t("semiSeniorSavneExperience.ten") }}
-            </li>
-            <li>
-              {{ $t("semiSeniorSavneExperience.eleven") }}
-            </li>
-            <li>
-              {{ $t("semiSeniorSavneExperience.twelve") }}
-            </li>
-            <li>
-              {{ $t("semiSeniorSavneExperience.thirteen") }}
-            </li>
-          </ul>
+        <div class="md:ms-4">
+          <h3 class="sm:ms-4 md:ms-0 text-lg font-semibold text-gray-900 dark:text-white">
+            {{ $t("experiencePersonalProjects.title") }}
+          </h3>
+          <div class="mb-4 text-base font-normal text-black dark:text-gray-950">
+            <p class="animateRight__">
+              {{ $t("experiencePersonalProjects.description") }}
+            </p>
+          </div>
         </div>
       </div>
-      <div class="mb-10 ms-4 list-none">
+
+      <!-- Bex Soluciones -->
+      <div class="mb-10 ms-4 md:ms-0 list-none relative min-h-[100px]">
+        <p
+          class="leading-5 ml-3 mb-3 text-sm font-bold italic md:ml-0 md:mb-0 md:-start-[130px] md:absolute md:top-0 md:w-[120px] md:text-right md:pr-2 animateLeft__"
+        >
+          {{ $t("experienceBex.company") }}
+          <br />
+          <span class="text-xs">{{ $t("experienceBex.contract") }}</span>
+        </p>
         <div
-          class="absolute w-3 h-3 bg-customGreen700 rounded-full mt-1.5 -start-1.5 border border-black dark:border-white dark:bg-customGreen700"
+          class="absolute w-3 h-3 bg-customGreen700 rounded-full mt-1.5 -start-1.5 border border-black dark:border-white z-10"
         >
           <span
             class="animate-ping absolute inline-flex h-full w-full rounded-full bg-customGreen600 opacity-75"
           ></span>
         </div>
-        <time
-          class="mb-1 text-sm font-normal leading-none text-customGreen500 dark:text-customGreen800"
-          >Mayo 2022 - Abril 2023
-        </time>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-          {{ $t("juniorSavneExperience.title") }}
-        </h3>
-        <div class="mb-4 text-base font-normal text-black dark:text-gray-950">
-          <ul class="list-disc list-outside ml-4 animateRight__">
-            <li>
-              {{ $t("juniorSavneExperience.one") }}
-            </li>
-            <li>
-              {{ $t("juniorSavneExperience.two") }}
-            </li>
-            <li>
-              {{ $t("juniorSavneExperience.three") }}
-            </li>
-            <li>
-              {{ $t("juniorSavneExperience.four") }}
-            </li>
-            <li>
-              {{ $t("juniorSavneExperience.five") }}
-            </li>
-            <li>
-              {{ $t("juniorSavneExperience.six") }}
-            </li>
-            <li>
-              {{ $t("juniorSavneExperience.seven") }}
-            </li>
-          </ul>
+        <div class="md:ms-4">
+          <h3 class="sm:ms-4 md:ms-0 text-lg font-semibold text-gray-900 dark:text-white">
+            {{ $t("experienceBex.title") }}
+          </h3>
+          <div class="mb-4 text-base font-normal text-black dark:text-gray-950">
+            <p class="animateRight__">
+              {{ $t("experienceBex.description") }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Disocom -->
+      <div class="mb-10 ms-4 md:ms-0 list-none relative min-h-[100px]">
+        <p
+          class="leading-5 ml-3 mb-3 text-sm font-bold italic md:ml-0 md:mb-0 md:-start-[130px] md:absolute md:top-0 md:w-[120px] md:text-right md:pr-2 animateLeft__"
+        >
+          {{ $t("experienceDisocom.company") }}
+          <br />
+          <span class="text-xs">{{ $t("experienceDisocom.contract") }}</span>
+        </p>
+        <div
+          class="absolute w-3 h-3 bg-customGreen700 rounded-full mt-1.5 -start-1.5 border border-black dark:border-white z-10"
+        >
+          <span
+            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-customGreen600 opacity-75"
+          ></span>
+        </div>
+        <div class="md:ms-4">
+          <h3 class="sm:ms-4 md:ms-0 text-lg font-semibold text-gray-900 dark:text-white">
+            {{ $t("experienceDisocom.title") }}
+          </h3>
+          <div class="mb-4 text-base font-normal text-black dark:text-gray-950">
+            <p class="animateRight__">
+              {{ $t("experienceDisocom.description") }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nuxt Frontend Developer -->
+      <div class="mb-10 ms-4 md:ms-0 list-none relative min-h-[100px]">
+        <p
+          class="leading-5 ml-3 mb-3 text-sm font-bold italic md:ml-0 md:mb-0 md:-start-[130px] md:absolute md:top-0 md:w-[120px] md:text-right md:pr-2 animateLeft__"
+        >
+          {{ $t("experienceNuxt.company") }}
+        </p>
+        <div
+          class="absolute w-3 h-3 bg-customGreen700 rounded-full mt-1.5 -start-1.5 border border-black dark:border-white z-10"
+        >
+          <span
+            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-customGreen600 opacity-75"
+          ></span>
+        </div>
+        <div class="md:ms-4">
+          <h3 class="sm:ms-4 md:ms-0 text-lg font-semibold text-gray-900 dark:text-white">
+            {{ $t("experienceNuxt.title") }}
+          </h3>
+          <div class="mb-4 text-base font-normal text-black dark:text-gray-950">
+            <p class="animateRight__">
+              {{ $t("experienceNuxt.description") }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Semi-Senior -->
+      <div class="mb-10 ms-4 md:ms-0 list-none relative min-h-[100px]">
+        <p
+          class="leading-5 ml-3 mb-3 text-sm font-bold italic md:ml-0 md:mb-0 md:-start-[130px] md:absolute md:top-0 md:w-[120px] md:text-right md:pr-2 animateLeft__"
+        >
+          {{ $t("experienceSemiSenior.company") }}
+        </p>
+        <div
+          class="absolute w-3 h-3 bg-customGreen700 rounded-full mt-1.5 -start-1.5 border border-black dark:border-white z-10"
+        >
+          <span
+            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-customGreen600 opacity-75"
+          ></span>
+        </div>
+        <div class="md:ms-4">
+          <h3 class="sm:ms-4 md:ms-0 text-lg font-semibold text-gray-900 dark:text-white">
+            {{ $t("experienceSemiSenior.title") }}
+          </h3>
+          <div class="mb-4 text-base font-normal text-black dark:text-gray-950">
+            <p class="animateRight__">
+              {{ $t("experienceSemiSenior.description") }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- PasarEx -->
+      <div class="mb-10 ms-4 md:ms-0 list-none relative min-h-[100px]">
+        <p
+          class="leading-5 ml-3 mb-3 text-sm font-bold italic md:ml-0 md:mb-0 md:-start-[130px] md:absolute md:top-0 md:w-[120px] md:text-right md:pr-2 animateLeft__"
+        >
+          {{ $t("experiencePasarEx.company") }}
+        </p>
+        <div
+          class="absolute w-3 h-3 bg-customGreen700 rounded-full mt-1.5 -start-1.5 border border-black dark:border-white z-10"
+        >
+          <span
+            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-customGreen600 opacity-75"
+          ></span>
+        </div>
+        <div class="md:ms-4">
+          <h3 class="sm:ms-4 md:ms-0 text-lg font-semibold text-gray-900 dark:text-white">
+            {{ $t("experiencePasarEx.title") }}
+          </h3>
+          <div class="mb-4 text-base font-normal text-black dark:text-gray-950">
+            <p class="animateRight__">
+              {{ $t("experiencePasarEx.description") }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Laravel Developer -->
+      <div class="mb-10 ms-4 md:ms-0 list-none relative min-h-[100px]">
+        <p
+          class="leading-5 ml-3 mb-3 text-sm font-bold italic md:ml-0 md:mb-0 md:-start-[130px] md:absolute md:top-0 md:w-[120px] md:text-right md:pr-2 animateLeft__"
+        >
+          {{ $t("experienceLaravel.company") }}
+        </p>
+        <div
+          class="absolute w-3 h-3 bg-customGreen700 rounded-full mt-1.5 -start-1.5 border border-black dark:border-white z-10"
+        >
+          <span
+            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-customGreen600 opacity-75"
+          ></span>
+        </div>
+        <div class="md:ms-4">
+          <h3 class="sm:ms-4 md:ms-0 text-lg font-semibold text-gray-900 dark:text-white">
+            {{ $t("experienceLaravel.title") }}
+          </h3>
+          <div class="mb-4 text-base font-normal text-black dark:text-gray-950">
+            <p class="animateRight__">
+              {{ $t("experienceLaravel.description") }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Junior -->
+      <div class="mb-10 ms-4 md:ms-0 list-none relative min-h-[100px]">
+        <p
+          class="leading-5 ml-3 mb-3 text-sm font-bold italic md:ml-0 md:mb-0 md:-start-[130px] md:absolute md:top-0 md:w-[120px] md:text-right md:pr-2 animateLeft__"
+        >
+          {{ $t("experienceJunior.company") }}
+        </p>
+        <div
+          class="absolute w-3 h-3 bg-customGreen700 rounded-full mt-1.5 -start-1.5 border border-black dark:border-white z-10"
+        >
+          <span
+            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-customGreen600 opacity-75"
+          ></span>
+        </div>
+        <div class="md:ms-4">
+          <h3 class="sm:ms-4 md:ms-0 text-lg font-semibold text-gray-900 dark:text-white">
+            {{ $t("experienceJunior.title") }}
+          </h3>
+          <div class="mb-4 text-base font-normal text-black dark:text-gray-950">
+            <p class="animateRight__">
+              {{ $t("experienceJunior.description") }}
+            </p>
+          </div>
         </div>
       </div>
     </div>
