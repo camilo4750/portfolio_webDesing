@@ -80,7 +80,7 @@ onMounted(() => {
               <span class="font-bold">{{ $t("contact.email.title") }}</span>
             </div>
             <div>
-              <p class="mb-2 text-center">witcamdev@gamil.com</p>
+              <p class="mb-2 text-center">witcamdev@gmail.com</p>
               <a
                 :href="gmailUrl"
                 target="_blank"

@@ -16,44 +16,57 @@ export default defineI18nConfig(() => ({
       experienceDescription: "EXPERIENCIA",
       textBntCv: "Descargar CV",
       aboutMe:
-        "Durante mi trayectoria como desarrollador web, he trabajado con una amplia variedad de tecnologías, creando soluciones " +
-        "innovadoras para servicios de entrega y optimizando operaciones logísticas a gran escala. Me concentro en desarrollar aplicaciones " +
-        "eficientes, escalables y orientadas al usuario.",
+        "Desarrollador Full Stack especializado en el diseño y desarrollo de aplicaciones empresariales escalables, con fuerte enfoque en arquitectura backend, análisis de datos y visualización. A lo largo de mi experiencia he trabajado en sistemas de logística, CRM y ERP, construyendo soluciones robustas orientadas al rendimiento, la mantenibilidad y la evolución del producto.",
       titleSectionExperience: "Mi Experiencia",
-      jobPositionSavne: "Desarrollador web",
-      juniorSavneExperience: {
-        title: "Desarrollador junior",
-        one: "Documenté módulos y funcionalidades mediante diagramas de flujo, secuencia y casos de uso con StarUML y Draw.io.",
-        two: "Proporcioné soporte en aplicaciones en PHP puro, aplicando soluciones modulares y escalables que aumentaron la calidad del código.",
-        three:
-          "Optimicé bases de datos en PostgreSQL, mejorando relaciones, normalizando estructuras y optimizando índices.",
-        four: "Supervisé y mejoré el rendimiento de sitios web mediante Lighthouse, identificando y resolviendo problemas de estabilidad y carga, optimizando recursos y mejorando la experiencia del usuario.",
-        five: "Mejoré la manipulación del DOM y la carga de datos en una aplicación basada en Blade, utilizando jQuery, JavaScript y AJAX",
-        six: "Introduje Vue 3 (Options API) en plantillas Blade, optimizando módulos dinámicos y reduciendo tiempos de carga.",
-        seven:
-          "Convertí diseños de Figma a código con HTML, CSS y Bootstrap, logrando interfaces pixel-perfect y 100% responsivas. La alta calidad del desarrollo y la satisfacción del cliente me llevaron a un ascenso a Desarrollador Semi Senior.",
+      experiencePersonalProjects: {
+        company: "Proyectos Personales",
+        title: "Arquitectura & Testing",
+        description:
+          "En paralelo, he desarrollado una arquitectura backend propia basada en Arquitectura Hexagonal, Clean Architecture pragmática, Vertical Slice y testing automatizado con PHPUnit y Mockery, integrando Laravel con Vue mediante Inertia.js bajo un enfoque SPA.",
       },
-      semiSeniorSavneExperience: {
-        title: "Desarrollador semi-senior",
-        one: "Mantuve comunicación directa con clientes, traduciéndo sus necesidades en soluciones tecnológicas funcionales.",
-        two: "Gestioné múltiples proyectos simultáneamente, optimizando flujos de trabajo y asegurando entregas eficientes dentro de los plazos establecidos.",
-        three:
-          "Diseñé e implementé arquitecturas escalables en Laravel, aplicando una estructura en capas con los patrones Repository y Service",
-        four: "Utilicé modelos C4 en StarUML para documentar la arquitectura del sistema y definir estructuras a nivel de clases.",
-        five: "Desarrollé sistemas completos desde cero con Laravel y Vue 3, utilizando Docker y PostgreSQL para garantizar escalabilidad en entornos de alto tráfico.",
-        six: "Implementé pruebas unitarias, de integración y funcionales con PHPUnit, empleando Mocking para simular dependencias y asegurar una cobertura del 100% en módulos clave.",
-        seven:
-          "Lideré la mentoría de desarrolladores junior, realizando revisiones de código en GitLab, corrigiendo errores en lógica e implementación, y proporcionando retroalimentación para mejorar la calidad del código.",
-        eight:
-          "Apliqué autenticación con JWT en Laravel dentro de una arquitectura desacoplada, reforzando la seguridad del sistema y reduciendo vulnerabilidades",
-        nine: "Participé en la implementación de una arquitectura modular para una API REST con Nuxt 3, Nuxt UI, TypeScript y TailwindCSS.",
-        ten: "Diseñé y codifique componentes modulares y eficientes.",
-        eleven:
-          "Optimizé el rendimiento del sistema aplicando estrategias como lazy loading, caching y SSR/ISR.",
-        twelve:
-          "Configuré y personalicé i18n para soportar aplicaciones bilingües, ampliando el alcance del sistema y mejorando la accesibilidad.",
-        thirteen:
-          "Inglés Intermedio (B1) – Capacidad para mantener conversaciones y leer documentación técnica.",
+      experienceBex: {
+        company: "Bex Soluciones",
+        title: "Full Stack Software Engineer",
+        contract: "Remoto",
+        description:
+          "Trabajé en sistemas multi-cliente enfocados en análisis de datos, reportes avanzados y visualización. Desarrollé dashboards, KPIs, procesos almacenados en MySQL, módulos de georreferenciación con mapas y puntos de calor, y automatizaciones con n8n para generación dinámica de reportes PDF compartidos entre múltiples empresas.",
+      },
+      experienceDisocom: {
+        company: "Disocom",
+        title: "Software Support Engineer",
+        contract: "Remoto",
+        description:
+          "Presté servicios de soporte y evolución a un CRM empresarial en PHP (Yii2) y MongoDB, gestionando múltiples incidencias en paralelo y desarrollando un módulo completo de evaluaciones internas con flujos de revisión, retroalimentación y notificaciones multicanal.",
+      },
+      experienceNuxt: {
+        company: "Savne SAS",
+        title: "Frontend Developer",
+        description:
+          "En la etapa final en Savne me enfoqué en frontend avanzado, trabajando con Nuxt 3 y una arquitectura basada en Feature-Based Architecture y Vertical Slices, construyendo aplicaciones escalables, mantenibles y alineadas con APIs Laravel.",
+      },
+      experienceSemiSenior: {
+        company: "Savne SAS",
+        title: "Desarrollador Full Stack Semi-Senior",
+        description:
+          "Con mayor dominio del negocio, destaqué por refinar requerimientos y proponer soluciones técnicas más eficientes, reduciendo retrabajo y funcionalidades innecesarias. Participé en el diseño e implementación de una arquitectura hexagonal, APIs REST seguras con JWT, testing automatizado y entornos dockerizados, aplicados a sistemas de seguros y gestión legal.",
+      },
+      experiencePasarEx: {
+        company: "Portal VIP – Savne SAS",
+        title: "Migración y liderazgo técnico",
+        description:
+          "Fui seleccionado como líder técnico para la migración completa del Portal VIP de PasarEx, transformándolo de PHP puro a Laravel 10 con Vue 3. Implementé por primera vez una arquitectura en capas con patrones Repository y Service, desarrollando el sistema de punta a punta (backend y frontend) y entregando más de 60 vistas pixel-perfect basadas en Figma.",
+      },
+      experienceLaravel: {
+        company: "Savne SAS",
+        title: "Laravel Developer",
+        description:
+          "Di el salto al desarrollo con Laravel, trabajando con Livewire y posteriormente integrando Vue.js dentro de vistas Blade. Esta etapa marcó mi primer contacto con arquitecturas más estructuradas, mejoras significativas en la experiencia de usuario y sistemas más dinámicos y eficientes.",
+      },
+      experienceJunior: {
+        company: "Savne SAS",
+        title: "Desarrollador Full Stack Junior",
+        description:
+          "Comencé mi carrera trabajando en el soporte y evolución de aplicaciones en PHP bajo arquitectura MVC. Durante esta etapa fortalecí mis bases en bases de datos, optimización de consultas SQL y desarrollo frontend con jQuery, participando en la estabilización y mejora de sistemas existentes.",
       },
       projects: {
         title: "Mis creaciones más recientes",
@@ -130,43 +143,57 @@ export default defineI18nConfig(() => ({
       experienceDescription: "EXPERIENCE",
       textBntCv: "Download CV",
       aboutMe:
-        "During my trajectory as a web developer, I have worked with a wide variety of technologies, creating innovative solutions for " +
-        "delivery services and optimizing large-scale logistics operations. I focus on developing efficient, scalable, and user-oriented applications.",
+        "Full Stack Developer specialized in designing and developing scalable enterprise applications, with a strong focus on backend architecture, data analysis, and visualization. Throughout my experience, I have worked on logistics, CRM, and ERP systems, building robust solutions oriented towards performance, maintainability, and product evolution.",
       titleSectionExperience: "My experience",
-      jobPositionSavne: "Web developer",
-      juniorSavneExperience: {
-        title: "Developer Junior",
-        one: "Documented modules and functionalities using flowcharts, sequence diagrams, and use case diagrams with StarUML and Draw.io.",
-        two: "Provided support for applications in pure PHP, applying modular and scalable solutions that increased code.",
-        three:
-          "Optimized PostgreSQL databases by improving relationships, normalizing structures, and optimizing indexes.",
-        four: "Monitored and enhanced website performance using Lighthouse, identifying and resolving stability and loading issues, optimizing resources, and improving user experience.",
-        five: "Improved DOM manipulation and data loading in a Blade-based application using jQuery, JavaScript, and AJAX.",
-        six: "Introduced Vue 3 (Options API) in Blade templates, optimizing modules and reducing load times",
-        seven:
-          "Converted Figma designs into code using HTML, CSS, and Bootstrap, achieving pixel-perfect and fully responsive interfaces. The high development quality and client satisfaction led to my promotion to Semi-Senior Developer.",
+      experiencePersonalProjects: {
+        company: "Personal Projects",
+        title: "Architecture & Testing",
+        description:
+          "In parallel, I have developed my own backend architecture based on Hexagonal Architecture, pragmatic Clean Architecture, Vertical Slice, and automated testing with PHPUnit and Mockery, integrating Laravel with Vue through Inertia.js under an SPA approach.",
       },
-      semiSeniorSavneExperience: {
-        title: "developer Semi-Senior",
-        one: "Maintained direct communication with clients, translating their needs into functional technological solutions",
-        two: "Managed multiple projects simultaneously, optimizing workflows and ensuring efficient deliveries within established deadlines.",
-        three:
-          "Designed and implemented scalable architectures in Laravel, applying a layered structure with the Repository and Service patterns.",
-        four: "Used C4 models in StarUML to document system architecture and define class-level structures",
-        five: "Developed complete systems from scratch using Laravel and Vue 3, leveraging Docker and PostgreSQL to ensure scalability in high-traffic environments.",
-        six: "Implemented unit, integration, and functional tests with PHPUnit, utilizing Mocking to simulate dependencies and ensuring 100% coverage in key modules.",
-        seven:
-          "Led mentorship for junior developers, conducting code reviews in GitLab, correcting logic and implementation errors, and providing feedback to enhance code quality.",
-        eight:
-          "Applied JWT authentication in Laravel within a decoupled architecture, strengthening system security and reducing vulnerabilities ",
-        nine: "Contributed to the implementation of a modular architecture for a REST API with Nuxt 3, Nuxt UI, TypeScript, and TailwindCSS.",
-        ten: "Design and coded modular and efficient components.",
-        eleven:
-          "Optimized system performance by applying strategies such as lazy loading, caching, and SSR/ISR.",
-        twelve:
-          "Configured and customized i18n to support bilingual applications, expanding system reach and enhancing accessibility. ",
-        thirteen:
-          "Intermediate English (B1) – Ability to hold conversations and read technical documentation.",
+      experienceBex: {
+        company: "Bex Soluciones",
+        title: "Full Stack Software Engineer",
+        contract: "Remote",
+        description:
+          "I worked on multi-client systems focused on data analysis, advanced reporting, and visualization. I developed dashboards, KPIs, stored procedures in MySQL, georeferencing modules with maps and heat points, and automations with n8n for dynamic generation of PDF reports shared among multiple companies.",
+      },
+      experienceDisocom: {
+        company: "Disocom",
+        title: "Software Support Engineer",
+        contract: "Remote",
+        description:
+          "I provided support and evolution services for an enterprise CRM in PHP (Yii2) and MongoDB, managing multiple incidents in parallel and developing a complete internal evaluations module with review flows, feedback, and multi-channel notifications.",
+      },
+      experienceNuxt: {
+        company: "Savne SAS",
+        title: "Frontend Developer",
+        description:
+          "In the final stage at Savne, I focused on advanced frontend, working with Nuxt 3 and an architecture based on Feature-Based Architecture and Vertical Slices, building scalable, maintainable applications aligned with Laravel APIs.",
+      },
+      experienceSemiSenior: {
+        company: "Savne SAS",
+        title: "Full Stack Semi-Senior Developer",
+        description:
+          "With greater business mastery, I stood out for refining requirements and proposing more efficient technical solutions, reducing rework and unnecessary functionalities. I participated in the design and implementation of a hexagonal architecture, secure REST APIs with JWT, automated testing, and dockerized environments, applied to insurance and legal management systems.",
+      },
+      experiencePasarEx: {
+        company: "Portal VIP – Savne SAS",
+        title: "Migration and v Leadership",
+        description:
+          "I was selected as technical leader for the complete migration of PasarEx's VIP Portal, transforming it from pure PHP to Laravel 10 with Vue 3. I implemented for the first time a layered architecture with Repository and Service patterns, developing the system end-to-end (backend and frontend) and delivering over 60 pixel-perfect views based on Figma.",
+      },
+      experienceLaravel: {
+        company: "Savne SAS",
+        title: "Laravel Developer",
+        description:
+          "I made the leap to Laravel development, working with Livewire and later integrating Vue.js within Blade views. This stage marked my first contact with more structured architectures, significant improvements in user experience, and more dynamic and efficient systems.",
+      },
+      experienceJunior: {
+        company: "Savne SAS",
+        title: "Full Stack Junior Developer",
+        description:
+          "I began my career working on support and evolution of PHP applications under MVC architecture. During this stage, I strengthened my foundations in databases, SQL query optimization, and frontend development with jQuery, participating in the stabilization and improvement of existing systems.",
       },
       projects: {
         title: "My latest creations",
