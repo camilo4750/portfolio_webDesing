@@ -140,7 +140,7 @@
       class="bg-white dark:bg-customGreen600 rounded-2xl p-4 sm:p-5 xl:p-3 shadow-lg text-center mt-8 sm:mt-10 md:mt-12 lg:mt-14 hidden xl:block"
     >
       <h1
-        class="text-base sm:text-lg xl:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-customGreen950 via-customGreen600 to-customGreen400 dark:from-white dark:via-slate-300 dark:to-white"
+        class="text-base sm:text-lg xl:text-xl 2xl:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-customGreen950 via-customGreen600 to-customGreen400 dark:from-white dark:via-slate-300 dark:to-white"
       >
         {{ $t("footerNav") }}
       </h1>
